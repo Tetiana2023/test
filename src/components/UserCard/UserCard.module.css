@@ -76,7 +76,11 @@ color: #EBD8FF;
   font-size: 18px;
   line-height: 1, 22%;
   cursor: pointer;
-}  
+  transition: background-color 200ms liner;
+} 
+.button:hover{
+  background-color: #AE7BE3;
+} 
 .buttonFollowing {
   margin-left: auto;
   margin-right: auto;
@@ -92,4 +96,9 @@ color: #EBD8FF;
   font-size: 18px;
   line-height: 1, 22%;
   cursor: pointer;
+  transition: background-color 200ms liner;
+} 
+.buttonFollowing:hover{
+  background-color:#AE7BE3;
+ 
 }  
